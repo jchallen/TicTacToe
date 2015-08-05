@@ -1,0 +1,5 @@
+#!/bin/bash
+	
+mkdir -p bin
+javac -d bin ./src/TicTacToeProject/*
+java -cp ./bin TicTacToeProject.Game
